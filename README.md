@@ -23,6 +23,7 @@ REGISTER NUMBER: 212222230051
 ```
 
 ### Read image and convert it to grayscale image
+
 ```python
 import numpy as np
 import cv2
@@ -43,7 +44,9 @@ plt.title("Gray Image")
 plt.axis("off")
 plt.show()
 ```
+
 ### Find the edges in the image using canny detector and display
+
 ```python
 canny=cv2.Canny(gray,120,150)
 plt.imshow(canny)
@@ -51,24 +54,31 @@ plt.title("Canny Edge Detector")
 plt.axis("off")
 plt.show()
 ```
+
 ### Detect points that form a line using HoughLinesP
+
 ```python
 lines=cv2.HoughLinesP(canny,1,np.pi/180,
                 threshold=80,minLineLength=50,maxLineGap=250)
 ```
+
 ### Draw lines on the image
+
 ```python
 for line in lines:
     x1,y1,x2,y2=line[0]
     cv2.line(img_c,(x1,y1),(x2,y2),(255,0,0),3)
 ```
+
 ### Display the result
+
 ```python
 plt.imshow(img_c)
 plt.title("Result Image")
 plt.axis("off")
 plt.show()
 ```
+
 ## Output
 
 ### Input image and grayscale image
