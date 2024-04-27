@@ -82,13 +82,13 @@ plt.show()
 <br>
 
 ### Canny Edge detector output
-<img src="https://github.com/Janarthanan2/DIP_EX07_Edge-Linking-using-Hough-Transformm/assets/119393515/08af0b02-830a-4a35-be7e-0354f52a2cc7" width=65%>
+<img src="https://github.com/Janarthanan2/DIP_EX07_Edge-Linking-using-Hough-Transformm/assets/119393515/08af0b02-830a-4a35-be7e-0354f52a2cc7" width=45%>
 
 <br>
 
 ### Display the result of Hough transform
 
-<img src="https://github.com/Janarthanan2/DIP_EX07_Edge-Linking-using-Hough-Transformm/assets/119393515/c4b279f3-efa2-4ef4-af49-92e4428fc53e" width=65%> 
+<img src="https://github.com/Janarthanan2/DIP_EX07_Edge-Linking-using-Hough-Transformm/assets/119393515/c4b279f3-efa2-4ef4-af49-92e4428fc53e" width=45%> 
 <br>
 
 ## Result:
