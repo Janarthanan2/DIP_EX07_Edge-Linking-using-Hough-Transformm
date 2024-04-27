@@ -58,7 +58,8 @@ plt.show()
 ```
 ### Detect points that form a line using HoughLinesP
 ```python
-lines=cv2.HoughLinesP(canny,1,np.pi/180,threshold=80,minLineLength=50,maxLineGap=250)
+lines=cv2.HoughLinesP(canny,1,np.pi/180,
+                threshold=80,minLineLength=50,maxLineGap=250)
 ```
 ### Draw lines on the image
 ```python
