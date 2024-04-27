@@ -6,20 +6,15 @@ To write a Python program to detect the lines using Hough Transform.
 Anaconda - Python 3.7
 
 ## Algorithm:
-### Step1:
-Read image and convert it to grayscale image.
+- **Step1:** Read image and convert it to grayscale image.
 
-### Step2:
-Find the edges in the image using canny detector and display.
+- **Step2:** Find the edges in the image using canny detector and display.
 
-### Step3:
-Detect points that form a line using HoughLinesP.
+- **Step3:** Detect points that form a line using HoughLinesP.
 
-### Step4:
-Draw lines on the image.
+- **Step4:** Draw lines on the image.
 
-### Step5:
-Display the result.
+- **Step5:** Display the result.
 
 ## Program:
 ```
